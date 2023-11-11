@@ -1,0 +1,32 @@
+.books-wrapper {
+  color: black;
+}
+
+.books-page-caption {
+  text-align: center;
+  font-size: 26px;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 300px));
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  justify-content: center;
+}
+.pagination-button {
+  display: block;
+  padding: 1rem;
+  background-color: blue;
+  font-size: 25px;
+  color: white;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 30px;
+}
+
+.books-page-errors {
+  text-align: center;
+  color: red;
+  font-size: 26px;
+}
